@@ -1,0 +1,687 @@
+/* Color of page : bleu #0065FC - bleu clair #DEEBFF - gris #919191 */
+
+/* New font face */
+@font-face {
+    font-family: 'raleway';
+    src: url('raleway/raleway.eot');
+    src: url('raleway/raleway.otf') format('otf'),
+         url('raleway/raleway.woff') format('woff'),
+         url('raleway/raleway.ttf') format('truetype'),
+         url('raleway/raleway.svg') format('svg');
+}
+
+body
+{
+	font-family: 'raleway', sans-serif;
+}
+
+#main_page
+{
+	width: 1000px;
+	margin: auto;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo p img
+{
+	width: 80px;
+}
+
+/* menu decoration */
+
+nav ul
+{
+	list-style-type: none;
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: #919191;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+	border-top: 2px solid #0065FC;
+	padding-top: 21px;
+}
+
+/* End of menu decoration */
+
+/* bloc */
+
+form
+{
+	margin-top: 10px;
+	height: 50px;
+}
+
+#maps
+{
+	width: 15px;
+	height: 15px;
+	padding: 10px;
+	background-color: #F2F2F2;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#bar
+{
+	position: relative;
+	bottom: 13px;
+	left: -2px;
+	padding-top: 7px;
+	padding-bottom: 8px;
+	padding-left: 3px;
+}
+
+::placeholder
+{
+	color: black;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#search
+{
+	position: relative;
+	bottom: 14px;
+	padding: 9px;
+	background-color: #0065FC;
+	color: white;
+	font-weight: bold;
+	margin-left: -10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#bloc
+{
+	width: 750px;
+}
+
+#bloc h1
+{
+	font-size: 1.2em;
+}
+
+#bloc p
+{
+	font-size: 0.8em;
+	color: #919191;
+}
+
+#bloc ul
+{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+#filters
+{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#filters p
+{
+	font-size: 1em;
+	color: black;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+
+.flt
+{
+	border: 1.5px solid #F2F2F2;
+	width: 150px;
+	height: 35px;
+	font-size: 0.8em;
+	border-radius: 20px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.flt a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+
+.flt:hover
+{
+	background-color: #F2F2F2;
+}
+
+#money
+{
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	background-color: #DEEBFF;
+	border-radius: 20px;
+	margin-left: -1px;
+	margin-bottom: -14px;
+
+} 
+
+#eco 
+{
+	margin-left: 20px;
+}
+
+#man
+{
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	background-color: #DEEBFF;
+	border-radius: 20px;
+	margin-left: -1px;
+	margin-bottom: -14px;
+}
+
+#homely
+{
+	margin-left: 25px;
+}
+
+#heart
+{
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	background-color: #DEEBFF;
+	border-radius: 20px;
+	margin-left: -1px;
+	margin-bottom: -14px;
+}
+
+#romantic
+{
+	margin-left: 20px;
+}
+
+#dog
+{
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	background-color: #DEEBFF;
+	border-radius: 20px;
+	margin-left: -1px;
+	margin-bottom: -14px;
+}
+
+#pets
+{
+	margin-left: 10px;
+}
+
+#info
+{
+	border: 1px solid #DEEBFF;
+	border-radius: 10px;
+	height: 10px;
+	width: 10px;
+	padding: 3px;
+	margin-right: 10px;
+	margin-bottom: -5px;
+}
+
+/* End of bloc */
+
+/* Article */
+
+#accommodations
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px ;
+}
+
+/* End of Article */
+
+/* Accommodations */
+
+#showmore:hover
+{
+	color: #0065FC;
+}
+
+#accommodation
+{
+	background-color: #F2F2F2;
+	width: 63%;
+	border-radius: 20px;
+	height: 410px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 26px;
+	padding-right: 5px;
+}
+
+#cards
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card
+{
+	width: 180px;
+	height: 140px;
+	border-radius: 15px;
+	background-color: white;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	box-shadow: 2px 2px 10px #c2c2c2;
+	padding-top: 1px;
+	margin-left: 5px;
+}
+
+.card:hover
+{
+	background-color: #DEEBFF;
+}
+
+.cardd:hover
+{
+	background-color: #DEEBFF;
+}
+
+.solid_star
+{
+	height: 10px;
+	width: 10px;
+	padding-top: 10px;
+}
+
+.thin_star
+{
+	height: 10px;
+	width: 10px;
+}
+
+.solid_star_m
+{
+	height: 10px;
+	width: 10px;
+}
+
+.thin_star_m
+{
+	height: 10px;
+	width: 10px;
+}
+
+.card h2
+{
+	font-size: 0.8em;
+	padding-left: 10px;
+}
+
+.card p
+{
+	font-size: 0.6em;
+	padding-left: 10px;
+	color: #919191;
+	margin-top: -10px;
+}
+
+#accommodation a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#accommodation h1
+{
+	margin-top: 12px;
+}
+
+#cannebiere
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/cannebiere.jpg");
+	margin-bottom: -7px;
+}
+
+#hotelDuPort
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/hotelDuPort.jpg");
+	margin-bottom: -7px;
+}
+
+#hotelLesMouettes
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/hotelLesMouettes.jpg");
+	margin-bottom: -7px;
+}
+
+#hotelDeLaMer
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/hotelDeLaMer.jpg");
+	margin-bottom: -7px;
+}
+
+#LePanier
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/LePanier.jpg");
+	margin-bottom: -7px;
+}
+
+#ChezAmina
+{
+	height: 80px;
+	width: 174px;
+	margin: 3px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	background-image: url("images/accommodations/ChezAmina.jpg");
+	margin-bottom: -7px;
+}
+
+/* End of Accommodations */
+
+/* Most Popular */
+
+#mostpop
+{
+	background-color: #F2F2F2;
+	width: 27%;
+	border-radius: 20px;
+	height: 410px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 5px;
+}
+
+#graph
+{
+	width: 20px;
+	height: 20px;
+	padding-left: 110px;
+}
+
+#mostpop a
+{
+
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+.cardd
+{
+	display: flex;
+	width: 245px;
+	height: 100px;
+	border-radius: 15px;
+	background-color: white;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 10px #c2c2c2;
+	padding-top: 1px;`
+}
+
+.cardd h2
+{
+	font-size: 0.9em;
+	padding-left: 10px;
+	color: black;
+}
+
+.cardd p
+{
+	font-size: 0.75em;
+	padding-left: 10px;
+	color: #919191;
+}
+
+#soleilDuMatin
+{
+	background-image: url("images/accommodations/soleilDuMatin.jpg");
+	width: 100px;
+	height: 94px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#hostelDeLeau
+{
+	background-image: url("images/accommodations/hostelDeLeau.jpg");
+	width: 100px;
+	height: 94px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#bleuBlanc
+{
+	background-image: url("images/accommodations/bleuBlanc.jpg");
+	width: 100px;
+	height: 94px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+/* End of Most popular */
+
+/* Activities */
+
+#activities
+{
+	height: 500px;
+}
+
+#blocCards
+{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.9em;
+}
+
+#blocCards a
+{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+
+#activities h1
+{
+	margin-top: 50px;
+	margin-bottom: -30px;
+}
+
+#mostpop h1
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.longCard
+{
+	margin-top: 50px;
+	height: 400px;
+	width: 230px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px #c2c2c2;
+}
+
+#oldPort 
+{
+	height: 350px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#natPark
+{
+	height: 350px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.titleCard
+{
+	font-weight: bold;
+	padding-left: 16px;
+	padding-top: -5px;
+}
+
+.smallCard
+{
+	margin-top: 50px;
+	height: 180px;
+	width: 230px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px #c2c2c2;
+}
+
+.smallCardBis
+{
+	margin-top: 40px;
+	height: 180px;
+	width: 230px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px #c2c2c2;
+}
+
+#pomegues
+{
+	height: 130px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#frioul
+{
+	height: 130px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#notreDame
+{
+	height: 130px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#longchamp
+{
+	height: 130px;
+	width: 230px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+/* End of activities */
+
+/* Footer */
+
+footer
+{
+	height: 150px;
+	width: 100%;
+	background-color:#F2F2F2;
+	display: flex;
+}
+
+footer h2
+{
+	font-size: 1em;
+}
+
+footer ul
+{
+	list-style-type: none;
+}
+
+footer a 
+{
+	text-decoration: none;
+	color: #919191;
+	font-size: 0.8em;
+}
+
+#about
+{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+#accom
+{
+	padding-left: 200px;
+	padding-top: 10px;
+}
+
+#assistance
+{
+	padding-left: 200px;
+	padding-top: 10px;
+}
+
+footer a:hover
+{
+	color: #0065FC;
+}
+
+/* End of Footer */
